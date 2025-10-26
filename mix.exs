@@ -83,7 +83,7 @@ defmodule Boltx.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:db_connection, "~> 2.7.0"},
+      {:db_connection, "~> 2.8.1"},
       {:jason, "~> 1.4", optional: true},
       {:poison, "~> 6.0", optional: true},
 
@@ -94,7 +94,7 @@ defmodule Boltx.Mixfile do
       {:tzdata, "~> 1.1", only: [:test, :dev]},
 
       # Benchmarking dependencies
-      {:benchee, "~> 1.3.0", optional: true, only: [:dev, :test]},
+      {:benchee, "~> 1.4.0", optional: true, only: [:dev, :test]},
       {:benchee_html, "~> 1.0.0", optional: true, only: [:dev]},
 
       # Linting dependencies
